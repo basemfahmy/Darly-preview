@@ -1,0 +1,32 @@
+.navbar-light .navbar-brand span,
+.navbar-light .navbar-nav .show > .nav-link,
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.show, 
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-toggler i,
+.header .info .button-two,
+.portfolio .buttons button,
+.clients i,
+.blog .item .info p.date,
+.blog .item .info a.read,
+.blog .item .info .icons span i,
+.footer p a {color: #FF4757} 
+
+.my-button,
+.go-up,
+.header .info .button-two:hover,
+.services .item:hover,
+.services .item-second,
+.portfolio .buttons button:hover,
+.statistics,.portfolio .buttons .my-button {background-color: #FF4757;}
+
+.my-button,  
+.go-up,
+.header .info .button-two,
+.header .info .button-two:hover,
+.portfolio .buttons button  {border: 1px solid #FF4757;}
+
+.navbar-light .navbar-toggler { border: none;}
+
+.clients .carousel-indicators li.active img{ border:2px solid #FF4757;}

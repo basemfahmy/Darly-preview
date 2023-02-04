@@ -1,0 +1,117 @@
+/*xs screen*/
+@media(max-width:575px){
+h2{font-size: 25px}
+h3{font-size: 20px;}
+p{font-size: 14px;}
+.main-box{padding: 40px 0px 40px 0px} 
+.main-box h2{margin-bottom: 40px}    
+.bg-light .ml-auto {margin-right: 0px;}
+.navbar-light .navbar-brand {margin-left: 13px;}
+.navbar-light .navbar-toggler {margin-right: 13px;}
+.header {height: auto;padding-bottom: 100px; text-align: center}
+.header .info h2 {font-size: 33px;}
+.header .info {padding-top: 55px;}   
+.header .info p:nth-of-type(2) { margin-bottom: -5px;} 
+.header .info p:nth-of-type(1){margin-bottom: 15px;}
+.header .info .my-button {padding: 13px 15px 13px 15px; display: block; width: 80%; margin: auto; margin-bottom: 15px;}
+.header .image img{display: none}
+.services .item {margin-bottom: 30px;}
+.about .image img { display: none;}
+.about .info { text-align: center;}
+.about .info p { margin-bottom: 25px;width: 100%;}
+.about .info h3 { margin: 6px 0px 30px 0px;}
+.portfolio .buttons button { margin-right: 15px; margin-bottom: 15px;}
+.portfolio .buttons { margin-bottom: 30px;}
+.portfolio .item .info .my-button{
+float: none;
+display: block; 
+margin-top: 10px;
+width: 100%;
+text-align: center;
+padding: 13px 25px 13px 25px;}
+.testimonials i {font-size: 45px;margin-bottom: 20px}
+.testimonials .info p {width: 100%;}
+.testimonials .carousel-indicators{display: none}
+.statistics .item i {font-size: 45px;}
+.statistics .item { margin-bottom: 40px}
+.clients .info p {width: 99%;}
+.contact .image img {width: 60%;margin-top: -8px; margin-bottom: 49px;}
+.contact h2{margin-bottom: 45px;}
+.go-up {display: none !important}    
+    
+}
+/*xs screen*/
+
+/*sm screen*/
+@media(min-width:576px) and (max-width:767px){
+.go-up{display: none !important;}    
+.bg-light .ml-auto {margin-right: 0px;}  
+.navbar-light .navbar-brand {margin-left: 13px;}
+.navbar-light .navbar-toggler {margin-right: 13px;}    
+.header{height: auto;padding-bottom: 110px;}    
+.header .info, .header .image img {  padding-top: 75px;}
+.header .info h2{font-size: 31px;}
+.header .info .my-button {margin-right: 5px; padding: 13px 12px 13px 12px;}
+.header .image img {    width: 83%; margin-left: 46px; padding-top: 87px;}
+.services .item{margin-bottom: 30px}
+.about .image img {width: 86%;margin-top: 69px; display: none;}
+.about .info{text-align: center;}
+.about .info p{width: 97%;margin: auto;}
+.clients .info p{width: 100%;}
+.portfolio .buttons button { margin-right: 20px;margin-bottom: 20px;}
+.testimonials .carousel-indicators {  top: 230px;}
+.testimonials .info p {  width: 100%;}
+.statistics .item {margin-bottom: 60px;}
+.about .info .icons a i { margin-right: 5px;}
+.portfolio .item .info .my-button{
+float: none;
+display: block; 
+margin-top: 10px;
+width: 100%;
+text-align: center;
+padding: 13px 25px 13px 25px;}
+.contact .image img {width: 50%; margin-top: 0px; margin-bottom: 55px;}  
+}
+/*sm screen*/
+
+/*md screen*/
+@media(min-width:768px) and (max-width:991px){
+.bg-light .ml-auto {margin-right: 0px;}  
+.go-up{display: none !important;}   
+.navbar-light .navbar-brand {margin-left: 13px;}
+.navbar-light .navbar-toggler {margin-right: 13px;}  
+.header{height: auto;padding-bottom: 70px;}  
+.header .image img {width: 85%; margin-left: 46px; padding-top: 120px;}
+.services .item h3{font-size: 18px;}
+.about .image img {width: 86%;margin-top: 70px;}
+.portfolio .item .info .my-button{
+float: none;
+display: block; 
+margin-top: 10px;
+width: 100%;
+text-align: center;
+padding: 13px 25px 13px 25px;}
+.testimonials .carousel-indicators {top: 215px}    
+.blog .item img {height: auto;}  
+.blog .item .info h3 {font-size: 25px; width: 85%}    
+.blog .item .info .icons span {margin-right: 35px;}    
+.contact .image img {width: 70%; margin-top: 23px; margin-bottom: 0px;}
+}
+/*md screen*/
+
+/*lg screen */
+@media(min-width:992px) and (max-width:1199px){
+.bg-light .ml-auto { margin-right: 40px;}  
+.header{height: auto;padding-bottom: 110px; }      
+.portfolio .item .info .my-button{
+float: none;
+display: block; 
+margin-top: 10px;
+width: 100%;
+text-align: center;
+padding: 13px 25px 13px 25px;}
+.testimonials .info p {width: 80%}   
+.contact .image img {width: 70%; margin-top: 0px; margin-bottom: 0px;}
+.about .image img { width: 70%;margin-top: 62px;}
+}
+/*lg screen */
